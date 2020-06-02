@@ -20,7 +20,7 @@
             android:id="@+id/login_btn_register"
             android:onClick="resetpwd"
             android:textColor="#ffffff"
-            android:background="#1196EE"
+            android:background="@drawable/button_circle_shape"
             android:textSize="20dp"
             android:layout_below="@+id/login_btn_login"
             android:layout_alignParentLeft="true"
@@ -33,7 +33,7 @@
             android:text="登录"
             android:id="@+id/login_btn_login"
             android:onClick="finish_login"
-            android:background="#1196EE"
+            android:background="@drawable/button_circle_shape"
             android:textSize="20dp"
             android:textColor="#ffffff"
             android:layout_below="@+id/login_edit_pwd"
@@ -89,7 +89,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:textColor="#ffffff"
-            android:background="#1196EE" />
+            android:background="@drawable/button_circle_shape" />
 
         <CheckBox
             android:layout_width="100dp"
